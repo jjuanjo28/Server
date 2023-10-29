@@ -1,7 +1,7 @@
 import { Sequelize } from "sequelize";
 
 const db = new Sequelize("prestamos", "root", "", {
-  host: "localhost",
+  host: "server-production-0129.up.railway.app",
   dialect: "mysql",
   port: 3307,
    define: {
